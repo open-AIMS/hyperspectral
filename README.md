@@ -1,4 +1,6 @@
 
+Git Repository: https://github.com/AIMS/hyperspectral
+
 Install Git crednetial manager:
 https://github.com/GitCredentialManager/git-credential-manager
 
