@@ -34,7 +34,7 @@ header_data{1}{rotation_index} = erase(header_data{1}{rotation_index},{'{','}'})
 % Find line where 'wavelength units' is
 wavelength_found_cell = strfind(header_data{1},'wavelength units');
 wavelength_found = ~cellfun(@isempty,wavelength_found_cell);
-wavelength_index = find(wavelength_found == 1);
+wavelength_index = wavelength_found == 1;
 % Rename header file 
 header_data{1}{wavelength_index} = 'wavelength units = nm';
 
